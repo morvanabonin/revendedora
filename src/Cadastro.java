@@ -4,7 +4,6 @@
  * @author morvana
  */
 import java.util.Scanner;
-import java.util.ArrayList;
 
 class Cadastro {
 
