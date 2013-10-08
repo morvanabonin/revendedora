@@ -56,6 +56,6 @@ class Cadastro {
     }
     
     public void cadastroPessoaPF(ClientePF cpf){
-
+        
     }
 }
