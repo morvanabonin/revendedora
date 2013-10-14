@@ -35,10 +35,10 @@ O sistema de Revenda deve comportar as seguintes funcionalidades: <br />
  - Cadastro de Clientes (PF/PJ) <br />
 	-- Um usuário não pode cadastrar os dois ao mesmo tempo.
  - Cadastro de Vendedor
- - Cadastro de Veiculo (Carro/Bicicleta)
+ - Cadastro de Veiculo (Carro/Bicicleta) <br />
 	-- Cadastrar a quantidade de cada. <br />
 	Plus <br />
-	-- Caso haja uma venda, mostrar a quantidade menos a venda 
+	-- Caso haja uma venda, mostrar a quantidade menos a venda <br />
    	(Ex.: 10 carros, vendido 1, total no estoque 9 do modelo tal)
 
  - Na hora da compra deve ser exibida as listas de Vendedor, Cliente 
