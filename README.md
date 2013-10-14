@@ -36,18 +36,18 @@ O sistema de Revenda deve comportar as seguintes funcionalidades: <br />
 	-- Um usuário não pode cadastrar os dois ao mesmo tempo.
  - Cadastro de Vendedor
  - Cadastro de Veiculo (Carro/Bicicleta)
-	-- Cadastrar a quantidade de cada.
-	Plus
+	-- Cadastrar a quantidade de cada. <br />
+	Plus <br />
 	-- Caso haja uma venda, mostrar a quantidade menos a venda 
    	(Ex.: 10 carros, vendido 1, total no estoque 9 do modelo tal)
 
  - Na hora da compra deve ser exibida as listas de Vendedor, Cliente 
-   e Veiculo com seus respectivos dados.
+   e Veiculo com seus respectivos dados. <br />
 	-- Deverá ser possível o cliente comprar mais de um veículo ou veículos diferenciado, 
 	no caso um carro e uma bicicleta
 
- - Na impressão da nota deve ter os dados do vendedor, cliente e veículo.
-	-- No caso de veículo deve ter a quantidade e o preço unitário
+ - Na impressão da nota deve ter os dados do vendedor, cliente e veículo. <br />
+	-- No caso de veículo deve ter a quantidade e o preço unitário. <br />
 	-- Informar o valor total na nota.
 
 
