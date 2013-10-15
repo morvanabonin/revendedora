@@ -1,4 +1,4 @@
-Trabalho <br />
+<h3> Trabalho </h3>
 Desenvolver um sistema para uma revendedora de automóveis.<br />
   O sistema deve ter: <br />
 • Classes que definam pessoas (clientes PF, clientes PJ e
@@ -30,6 +30,8 @@ Desenvolver um sistema para uma revendedora de automóveis.<br />
   além de outras informações que acharem relevantes. <br />
 • Boas práticas de programação. <br />
 
+<h3> Funcionalidades do Sistema </h3>
+
 O sistema de Revenda deve comportar as seguintes funcionalidades: <br />
 
  - Cadastro de Clientes (PF/PJ) <br />
@@ -48,9 +50,11 @@ O sistema de Revenda deve comportar as seguintes funcionalidades: <br />
 
  - Na impressão da nota deve ter os dados do vendedor, cliente e veículo. <br />
 	-- No caso de veículo deve ter a quantidade e o preço unitário. <br />
-	-- Informar o valor total na nota.
+	-- Informar o valor total na nota.<br />
 
+<h3>Padrões de Projeto</h3>
 
-
-
+Atributos <br />
+Private e Protected -> Deve seguir-se de um underline antes do nome ex.: $_atributo <br />
+Public -> Normal, apenas o nome ex.: $atributo
 
