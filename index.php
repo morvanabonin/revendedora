@@ -7,9 +7,9 @@
 	//Pega a posição 0 do array, será nosso Controller.
 	$controller = $separator[0];
 	//Pega a posição 1 do nosso array, será nossa View.
-	$action = $separator[1];
+	$action = ($separator[1] == null ? 'index' : $separator[1]);
 
-	require_once('application/controllers/'.$controller. 'Controller.php');
+	require_once('application/controllers/'.ucfirst($controller). 'Controller.php');
 	$application = new $controller();
 	$application->$action();
 
