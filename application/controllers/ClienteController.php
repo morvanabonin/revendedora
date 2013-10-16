@@ -1,11 +1,10 @@
 <?php
 	
-	class Cliente extends AbstractController() {
+	class Cliente extends AbstractController {
 
 		public function index() {
-			echo 'funciona';
-			$teste = $this->view('cliente/index');
-			print_r($teste);
+			$this->view('cliente/index');
+			
 		}
 
 		public function novos() {

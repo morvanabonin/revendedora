@@ -1,6 +1,6 @@
 <?php 
 
-	abstract class AbstractController 
+	abstract class AbstractController {
 
 		protected function view($view) {
 
@@ -9,6 +9,6 @@
 				$controller = $view[0];
 				$action = $view[1];
 			}
-			return require_once('views/'.$controller.'/'.$action.'.phtml');
+			return require_once('application/views/'.$controller.'/'.$action.'.phtml');
 		}
 	}
