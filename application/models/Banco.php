@@ -13,10 +13,11 @@
 	    {
 	        if (!isset(self::$instance)) {
 	            self::$_instance = new PDO("mysql:dbname=$_dbn; host=$_host", $_user, $_pass);
-	            $_instance->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION)
+	            $_instance->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	        }
 
 	        return self::$_instance;
 	    }
+        }
 
 ?>

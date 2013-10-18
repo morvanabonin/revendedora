@@ -10,5 +10,6 @@
 				$action = $view[1];
 			}
 			return require_once('application/views/'.$controller.'/'.$action.'.phtml');
+			exit();
 		}
 	}
