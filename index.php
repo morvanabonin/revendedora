@@ -50,9 +50,9 @@
       function __autoload($file) {
           require_once('application/models/'. $file .'.php' );
       }
-                        
-			require_once('application/controllers/AbstractController.php');
-      require_once('applicatio/models/AbstractModel.php');
+                         
+			require_once('application/controllers/AbstractController.php');  
+      require_once('application/models/AbstractModel.php');  
 			require_once('application/controllers/'.ucfirst($controller). 'Controller.php');
 			$application = new $controller();
 			$application->$action();

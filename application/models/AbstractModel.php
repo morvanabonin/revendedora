@@ -2,11 +2,11 @@
 
 class AbstractModel {
 
-	private static $_instance;
-	private $_host = "localhost";
-	private $_dbn  = "revendedora";
-	private $_user = "root";
-	private $_pass = "root";
+	protected static $_instance;
+	protected $_host = "localhost";
+	protected $_dbn  = "revendedora";
+	protected $_user = "root";
+	protected $_pass = "root";
 
 	private function __construct() {}
 
@@ -22,6 +22,7 @@ class AbstractModel {
     
     public function insert($table, Array $data) {
         //$sql = "INSERT INTO tabela (ca";
+        print_r($data);
         foreach ($data as $index => $values) {
             $campos[] = $index;
             $valores[] = $values;
